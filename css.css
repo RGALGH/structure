@@ -1,0 +1,91 @@
+*{margin: 0;}
+
+.acceuil {
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.menularge {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.titremockup {
+    height: 100%;
+    width: 50%;
+    background-color: blueviolet;
+}
+
+.listemenu {
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.atouts {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    flex-direction: column;
+}
+
+.atoutcaz {
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.bntatouts {
+    height: 160px;
+    width: 280px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.cazdepli {
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    height: 160px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titrecaz {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+}
+
+.cazdepli[open] {
+    padding: 0.5em;
+    height: 580px;
+    width: 940px;
+}
+
+.cazdepli[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+}
