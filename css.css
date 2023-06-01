@@ -31,6 +31,42 @@
     justify-content: center;
     flex-direction: column;
 }
+.apropos{
+    height: 950px;
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imgapropos{
+
+position: absolute;
+width: 1440px;
+height: 301px;
+left: 0px;
+top: 327px;
+
+background: url(section-1.jpg);
+
+}
+
+
+.txtapropos1 {
+    height: 100px;
+    width: 90%;
+    background-color: salmon;
+    margin-bottom: 50px;
+}
+
+.txtapropos2 {
+    height: 100px;
+    width: 90%;
+    background-color: salmon;
+    margin-bottom: 50px;
+    text-align: end;
+}
 
 .atouts {
     height: 1000px;
