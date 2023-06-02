@@ -74,13 +74,15 @@
 
 .clients {
     width: 100vw;
-min-height: 100vh;
-background-color: slateblue;
+    min-height: 100vh;
+    background-color: slateblue;
 }
 
 .picture {
     width: 100vw;
-min-height: 100vh;
+    min-height: 100vh;
+    background-image: url(img/ipad-viewer.jpg);
+    background-size: cover;
 }
 
 .atouts {
@@ -190,7 +192,7 @@ min-height: 100vh;
     background-color: red;
 }
 
-.contact{
+.contact {
     width: 100vw;
     min-height: 100vh;
     background-color: royalblue;
