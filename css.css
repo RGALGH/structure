@@ -1,8 +1,10 @@
-*{margin: 0;}
+* {
+    margin: 0;
+}
 
 .acceuil {
-    height: 900px;
-    width: 100%;
+    width: 100vw;
+    min-height: 100vh;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -31,24 +33,26 @@
     justify-content: center;
     flex-direction: column;
 }
-.apropos{
-    height: 950px;
-    width: 100%;
+
+.apropos {
+    width: 100vw;
+    min-height: 100vh;
     background-color: orange;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.imgapropos{
 
-position: absolute;
-width: 1440px;
-height: 301px;
-left: 0px;
-top: 327px;
+.imgapropos {
 
-background: url(section-1.jpg);
+    position: absolute;
+    width: 1440px;
+    height: 301px;
+    left: 0px;
+    top: 327px;
+
+    background: url(section-1.jpg);
 
 }
 
@@ -68,9 +72,20 @@ background: url(section-1.jpg);
     text-align: end;
 }
 
+.clients {
+    width: 100vw;
+min-height: 100vh;
+background-color: slateblue;
+}
+
+.picture {
+    width: 100vw;
+min-height: 100vh;
+}
+
 .atouts {
-    height: 1000px;
-    width: 100%;
+    width: 100vw;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,4 +140,58 @@ background: url(section-1.jpg);
 .cazdepli[open] summary {
     border-bottom: 1px solid #aaa;
     margin-bottom: 0.5em;
+}
+
+.fonctionnalites {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: green;
+    flex-direction: column;
+}
+
+.fonctcaz {
+    background-color: antiquewhite;
+    height: auto;
+    width: 90%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+.fontcazdepli {
+    background-color: aliceblue;
+    height: 140px;
+    width: 280px;
+
+}
+
+.demo {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: cornflowerblue;
+}
+
+.fonctionnalitesII {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: green;
+    flex-direction: column;
+}
+
+.price {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: red;
+}
+
+.contact{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: royalblue;
 }
